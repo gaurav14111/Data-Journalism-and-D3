@@ -1,0 +1,13 @@
+<html>
+    <body>
+        <canvas id = "myCanvas" width="200px" height="200px" style="border:solid # 000"></canvas>
+        <script>
+            const canvas = document.getElementById("myCanvas");
+            const context = canvas.getContext("2d").beginPath()
+            context.beginPath();
+            context.moveTo(10,10);
+            context.lineTo(50,25);
+            context.stroke();
+        </script>
+    <body>
+</html>

@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <canvas id = "myCanvas" width="200px" height="200px" style="border: 1px solid #000"></canvas>
+        <script>
+            const canvas = document.getElementById("myCanvas");
+            const context = canvas.getContext("2d").beginPath()
+            context.beginPath();
+            context.moveTo(10,10);
+            context.lineTo(50,25);
+            context.stroke();
+            context.lineTo(70,55);
+            context.stroke();
+            context.arc(100,100,25,0,2*Math.PI);
+            context.stroke();
+        </script>
+    <body>
+</html>
